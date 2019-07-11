@@ -28,3 +28,58 @@ main {
 .button:hover {
   background-color: #326891;
 }
+#picture-container{
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 100px
+
+ 
+ 
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  background-color: white;
+}
+footer > p:first-child{
+  font-weight: bold;
+  padding: 0px 5px;
+}
+article{
+  margin-bottom: 45px;
+}
+article h1{
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  width: auto;
+}
+
+article > div:first-child{
+  width: 60%;
+  margin: auto;
+}
+div figure img{
+  width: 100%;
+  height: 100%;
+  
+}
+#paragraph-container{
+  width: 65%;
+  margin: auto;
+ 
+}
+#unlock-more-articles{
+ text-align: center;
+}
+#unlock-border{
+  width: 80px;
+  border-top: 1px solid black;
+  margin: auto;
+  
+}
