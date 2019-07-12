@@ -60,7 +60,7 @@ aside figcaption {
   color: rgb(102, 102, 102);
   margin-bottom: 8px;
 }
-aside section div:last-child {
+aside section div+div {
   font-size: 12px;
   color: rgb(102, 102, 102);
   margin-top: 8px;
@@ -70,7 +70,7 @@ aside section div:last-child {
   grid-area: most-popular;
   border-top: 1px solid black;
 }
-.most-popular div {
+.most-popular li{
   border-top: 1px solid lightgray;
   padding: 18px 0;
 }
@@ -134,8 +134,13 @@ div figure img {
 #unlock-more-articles {
   text-align: center;
 }
-#unlock-border {
+.unlock-border {
   width: 80px;
   border-top: 1px solid black;
   margin: auto;
+}
+aside ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
