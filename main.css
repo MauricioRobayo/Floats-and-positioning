@@ -1,7 +1,7 @@
 body {
   font-size: 18px;
 }
-nav {
+#top-nav {
   font-weight: bold;
   border-bottom: 1px solid #e2e2e2;
   display: flex;
@@ -14,7 +14,7 @@ nav {
   top: 0;
   box-sizing: border-box;
 }
-nav svg {
+#top-nav svg {
   height: 26px;
 }
 main {
@@ -28,6 +28,7 @@ aside {
     'more-content most-popular'
     'editors-picks most-popular';
   grid-column-gap: 32px;
+ 
 }
 aside a {
   color: black;
@@ -143,4 +144,27 @@ aside ul{
   list-style: none;
   padding: 0;
   margin: 0;
+}
+#bottom-header-image{
+  width: 184px;
+}
+#go-to-homepage{
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(98, 136, 165);
+}
+#bottom-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 80px 20px 80px;
+
+ 
+}
+#border{
+  width: 100%;
+  border-top: 1.6px solid rgb(226, 226, 226);
+  border-bottom: .8px solid rgb(226, 226, 226);
+  height: 1px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
