@@ -1,3 +1,6 @@
+body {
+  font-size: 18px;
+}
 nav {
   font-weight: bold;
   border-bottom: 1px solid #e2e2e2;
@@ -17,6 +20,65 @@ nav svg {
 main {
   margin-top: 48px;
 }
+aside {
+  margin: 0px 80px 80px 80px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    'more-content most-popular'
+    'editors-picks most-popular';
+  grid-column-gap: 32px;
+}
+aside a {
+  color: black;
+  text-decoration: none;
+}
+.more-content h4 a:hover,
+.editors-picks h4 a:hover {
+  color: black;
+  text-decoration: underline;
+}
+aside a:hover {
+  color: rgb(102, 102, 102);
+}
+.more-content {
+  grid-area: more-content;
+  border-top: 1px solid black;
+}
+.more-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+}
+aside figure {
+  margin: 0;
+}
+aside figcaption {
+  text-align: right;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 8px;
+}
+aside section div:last-child {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  margin-top: 8px;
+}
+
+.most-popular {
+  grid-area: most-popular;
+  border-top: 1px solid black;
+}
+.most-popular div {
+  border-top: 1px solid lightgray;
+  padding: 18px 0;
+}
+.editors-picks {
+  grid-area: editors-picks;
+  border-top: 1px solid black;
+  margin-top: 32px;
+}
 .button {
   border: 1px solid #326891;
   background-color: #6288a5;
@@ -28,16 +90,13 @@ main {
 .button:hover {
   background-color: #326891;
 }
-#picture-container{
+#picture-container {
   width: 1000px;
   height: 500px;
   margin: auto;
-  margin-bottom: 100px
-
- 
- 
+  margin-bottom: 100px;
 }
-footer{
+footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -46,40 +105,37 @@ footer{
   border-top: 1px solid black;
   background-color: white;
 }
-footer > p:first-child{
+footer > p:first-child {
   font-weight: bold;
   padding: 0px 5px;
 }
-article{
+article {
   margin-bottom: 45px;
 }
-article h1{
+article h1 {
   font-size: 30px;
   text-align: center;
   display: block;
   width: auto;
 }
 
-article > div:first-child{
+article > div:first-child {
   width: 60%;
   margin: auto;
 }
-div figure img{
+div figure img {
   width: 100%;
   height: 100%;
-  
 }
-#paragraph-container{
+#paragraph-container {
   width: 65%;
   margin: auto;
- 
 }
-#unlock-more-articles{
- text-align: center;
+#unlock-more-articles {
+  text-align: center;
 }
-#unlock-border{
+#unlock-border {
   width: 80px;
   border-top: 1px solid black;
   margin: auto;
-  
 }
