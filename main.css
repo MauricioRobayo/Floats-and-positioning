@@ -13,6 +13,7 @@ body {
   background-color: white;
   top: 0;
   box-sizing: border-box;
+  z-index: 999;
 }
 #top-nav svg {
   height: 26px;
@@ -20,7 +21,7 @@ body {
 main {
   margin-top: 78px;
 }
-aside {
+main > aside {
   margin: 0px 80px 80px 80px;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -29,7 +30,7 @@ aside {
     'editors-picks most-popular';
   grid-column-gap: 32px;
 }
-aside a {
+main > aside a {
   color: black;
   text-decoration: none;
 }
@@ -38,7 +39,7 @@ aside a {
   color: black;
   text-decoration: underline;
 }
-aside a:hover {
+main > aside a:hover {
   color: rgb(102, 102, 102);
 }
 .more-content {
@@ -51,16 +52,16 @@ aside a:hover {
   grid-column-gap: 32px;
   grid-row-gap: 32px;
 }
-aside figure {
+main > aside figure {
   margin: 0;
 }
-aside figcaption {
+main > aside figcaption {
   text-align: right;
   font-size: 12px;
   color: rgb(102, 102, 102);
   margin-bottom: 8px;
 }
-aside section div + div {
+main > aside section div + div {
   font-size: 12px;
   color: rgb(102, 102, 102);
   margin-top: 8px;
@@ -137,8 +138,36 @@ div figure img {
   height: 100%;
 }
 #paragraph-container {
-  width: 65%;
+  width: 600px;
   margin: auto;
+}
+#paragraph-container aside {
+  position: absolute;
+  right: 0;
+  margin-top: -220px;
+  margin-right: 10%;
+}
+.aside-editor-pick {
+  display: flex;
+}
+#paragraph-container aside h5 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.aside-editors-pick {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+#aside-figure-1 img,
+#aside-figure-2 img,
+#aside-figure-3 img {
+  width: 75px;
+  height: 75px;
+  margin-right: 8px;
+}
+.aside-editors-pick figcaption {
+  font-size: 14px;
 }
 #unlock-more-articles {
   text-align: center;
@@ -186,6 +215,12 @@ ul {
 }
 h6 {
   margin-bottom: 12px;
+}
+#sign-up-aside {
+  width: 180px;
+}
+#editors-picks-aside {
+  width: 210px;
 }
 #bottom-nav-wrapper {
   margin-left: 80px;
