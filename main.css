@@ -65,7 +65,15 @@ aside section div + div {
   color: rgb(102, 102, 102);
   margin-top: 8px;
 }
-
+figcaption p {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: rgb(136, 136, 136);
+}
+figcaption p:last-child {
+  font-size: 12px;
+}
 .most-popular {
   grid-area: most-popular;
   border-top: 1px solid black;
