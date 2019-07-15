@@ -210,56 +210,59 @@ h6 {
   margin-bottom: 12px;
   padding-bottom: 6px;
 }
-.hyperlink-style{
+.hyperlink-style {
   text-decoration: none;
   color: black;
 }
-#desktop-sections-button{
+#desktop-sections-button {
   border: 0;
   background: transparent;
 }
-.nav-icon{
+.nav-icon {
   width: 16px;
   margin: 10px;
 }
-.left-nav{
+.left-nav {
   display: flex;
   align-items: center;
 }
-#left-nav-title{
+#left-nav-title {
   margin: 15px;
 }
-#button-socialmedia-container{
-width: 100%;
-display: flex;
-justify-content: space-between;
+#button-socialmedia-container {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-#comments-button{
+#comments-button {
   background-color: rgb(98, 136, 165);
   color: white;
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
-  width: 100%
+  width: 100%;
 }
-#social-media{
-  
+#social-media {
   color: #999;
-  
 }
-#social-media ul{
+#social-media ul {
   display: flex;
   align-items: center;
 }
-#button-container{
+#button-container {
   width: 330px;
 }
-#social-media li{
+#social-media li {
+  margin-left: 12px;
+}
+#social-media li svg {
   background-color: #eee;
   padding: 5px;
   border-radius: 100%;
-  border: 1px #eee solid; 
+  border: 1px #eee solid;
   width: 15px;
   height: 15px;
-
-
+}
+#social-media li svg:hover {
+  background-color: white;
 }
