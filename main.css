@@ -18,7 +18,7 @@ body {
   height: 26px;
 }
 main {
-  margin-top: 48px;
+  margin-top: 78px;
 }
 aside {
   margin: 0px 80px 80px 80px;
@@ -28,7 +28,6 @@ aside {
     'more-content most-popular'
     'editors-picks most-popular';
   grid-column-gap: 32px;
- 
 }
 aside a {
   color: black;
@@ -61,7 +60,7 @@ aside figcaption {
   color: rgb(102, 102, 102);
   margin-bottom: 8px;
 }
-aside section div+div {
+aside section div + div {
   font-size: 12px;
   color: rgb(102, 102, 102);
   margin-top: 8px;
@@ -71,7 +70,7 @@ aside section div+div {
   grid-area: most-popular;
   border-top: 1px solid black;
 }
-.most-popular li{
+.most-popular li {
   border-top: 1px solid lightgray;
   padding: 18px 0;
 }
@@ -115,13 +114,14 @@ article {
 }
 article h1 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   display: block;
   width: auto;
+  font-style: italic;
 }
 
 article > div:first-child {
-  width: 60%;
+  width: 55%;
   margin: auto;
 }
 div figure img {
@@ -140,31 +140,73 @@ div figure img {
   border-top: 1px solid black;
   margin: auto;
 }
-aside ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#bottom-header-image{
+#bottom-header-image {
   width: 184px;
 }
-#go-to-homepage{
+#go-to-homepage {
   text-decoration: none;
   font-size: 12px;
   color: rgb(98, 136, 165);
 }
-#bottom-header{
+#bottom-header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 80px 20px 80px;
-
- 
+  margin: 20px 0 0 0;
 }
-#border{
+#border {
   width: 100%;
   border-top: 1.6px solid rgb(226, 226, 226);
-  border-bottom: .8px solid rgb(226, 226, 226);
+  border-bottom: 0.8px solid rgb(226, 226, 226);
   height: 1px;
+}
+#bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+#bottom-nav section:last-child {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 8px;
+}
+#bottom-nav li {
+  padding: 4px 0;
+  font-size: 14px;
+}
+h6 {
+  margin-bottom: 12px;
+}
+#bottom-nav-wrapper {
   margin-left: 80px;
   margin-right: 80px;
+  border-bottom: 0.8px solid rgb(226, 226, 226);
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+}
+#copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 66px;
+}
+#copyright li {
+  display: inline;
+  padding: 8px;
+  color: rgb(153, 153, 153);
+}
+#subscribe-first li {
+  font-weight: bold;
+  font-size: 16px;
+}
+#subscribe-second li,
+#subscribe-third li {
+  font-size: 12px;
+}
+#subscribe-second {
+  margin-top: 12px;
+  border-bottom: 0.8px solid rgb(226, 226, 226);
+  margin-bottom: 12px;
+  padding-bottom: 6px;
 }
