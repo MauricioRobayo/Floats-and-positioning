@@ -210,3 +210,22 @@ h6 {
   margin-bottom: 12px;
   padding-bottom: 6px;
 }
+.hyperlink-style{
+  text-decoration: none;
+  color: black;
+}
+#desktop-sections-button{
+  border: 0;
+  background: transparent;
+}
+.nav-icon{
+  width: 16px;
+  margin: 10px;
+}
+.left-nav{
+  display: flex;
+  align-items: center;
+}
+#left-nav-title{
+  margin: 15px;
+}
