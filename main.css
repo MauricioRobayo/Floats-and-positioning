@@ -186,20 +186,17 @@ div figure img {
   top: 65%;
   left: 0;
 }
-#inflation{
+#inflation {
   top: 65%;
   left: 25%;
 }
-#fluctuation{
+#fluctuation {
   top: 65%;
   left: 51%;
 }
-#expansion{
+#expansion {
   top: 65%;
   left: 77%;
-}
-#theory-of-inflation img {
-  width: 100%;
 }
 #paragraph-container aside {
   position: absolute;
@@ -369,8 +366,7 @@ h6 {
 #social-media li svg:hover {
   background-color: white;
 }
-#grid-element-border{
+#grid-element-border {
   width: 60px;
-  border: .5px solid #333;
-  
+  border: 0.5px solid #333;
 }
