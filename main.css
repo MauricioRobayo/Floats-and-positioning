@@ -66,13 +66,13 @@ main > aside section div + div {
   color: rgb(102, 102, 102);
   margin-top: 8px;
 }
-.figcaption-credit-styling{
+.figcaption-credit-styling {
   font-size: 12px;
   margin-top: 4px;
   margin-bottom: 0;
   color: rgb(136, 136, 136);
 }
-.figcaption-styling{
+.figcaption-styling {
   color: #666;
   font-size: 16px;
   margin: 0;
@@ -143,6 +143,47 @@ div figure img {
 #paragraph-container {
   width: 600px;
   margin: auto;
+}
+.outside-of-wrapper {
+  margin-left: -122px;
+}
+#theory-of-inflation {
+  width: 945px;
+  position: relative;
+  margin: auto;
+}
+#theory-of-inflation img {
+  width: 100%;
+}
+.grid-element {
+  position: absolute;
+  width: 22%;
+  font-size: 14px;
+}
+.bold {
+  font-weight: bold;
+}
+#universe {
+  top: 20%;
+}
+#time {
+  top: 20%;
+  left: 25%;
+}
+#distant-coffee {
+  top: 20%;
+  left: 51%;
+}
+#coffee-everywhere {
+  top: 20%;
+  left: 77%;
+}
+#not-enough-time {
+  top: 65%;
+  left: 0;
+}
+#theory-of-inflation img {
+  width: 100%;
 }
 #paragraph-container aside {
   position: absolute;
