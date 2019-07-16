@@ -146,14 +146,18 @@ div figure img {
 }
 .outside-of-wrapper {
   margin-left: -122px;
+  margin-bottom: 0;
 }
 #theory-of-inflation {
   width: 945px;
+  height: 576px;
   position: relative;
   margin: auto;
+  overflow: hidden;
 }
 #theory-of-inflation img {
   width: 100%;
+  height: 100%;
 }
 .grid-element {
   position: absolute;
@@ -181,6 +185,18 @@ div figure img {
 #not-enough-time {
   top: 65%;
   left: 0;
+}
+#inflation{
+  top: 65%;
+  left: 25%;
+}
+#fluctuation{
+  top: 65%;
+  left: 51%;
+}
+#expansion{
+  top: 65%;
+  left: 77%;
 }
 #theory-of-inflation img {
   width: 100%;
@@ -352,4 +368,9 @@ h6 {
 }
 #social-media li svg:hover {
   background-color: white;
+}
+#grid-element-border{
+  width: 60px;
+  border: .5px solid #333;
+  
 }
